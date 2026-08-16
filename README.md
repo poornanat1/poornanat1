@@ -15,6 +15,17 @@ A health-benefits navigator that answers questions from source material and esca
 
 [Source](https://github.com/poornanat1/carenav) · [Demo](https://carenav-frontend-production.up.railway.app/)
 
+### [Audition With Me](https://github.com/cranberrymuffin/auditionwithme)
+
+A browser-based rehearsal tool that turns scripts and audition sides into interactive scenes with AI-powered scene partners. I was a major contributor, working across the core product experience:
+
+- Built the guided rehearsal flow with role selection, voice casting, real-time line tracking, and teleprompter-style playback
+- Developed layered PDF parsing for typed, scanned, bilingual, and marked-up audition sides
+- Added expressive scene-partner audio with contextual delivery direction, playback controls, and caching
+- Led major landing-page, responsive-design, and authenticated-user experience improvements
+
+[Source](https://github.com/cranberrymuffin/auditionwithme) · [Demo](https://auditionwithme.vercel.app)
+
 ### [DSpyNet](https://github.com/al322se/DSpyNet)
 
 A C#/.NET port of Stanford DSPy. My contributions include:
