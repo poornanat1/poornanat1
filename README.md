@@ -34,14 +34,13 @@ Open-source contributions to a C#/.NET port of Stanford DSPy.
 
 ### [Audition With Me](https://github.com/cranberrymuffin/auditionwithme)
 
-An AI-assisted rehearsal application that turns scripts and audition sides
-into interactive scenes with voice-powered scene partners. Major contributor
-across the rehearsal experience, document intelligence, voice, and product UI.
+An AI-assisted rehearsal app that turns scripts into interactive scenes with
+voice-powered scene partners. Major contributor across product and engineering.
 
-- Replaced the original script viewer with an end-to-end guided rehearsal flow spanning PDF processing, role selection, voice casting, real-time speech tracking, and teleprompter-style playback
-- Built a layered parsing system for typed, scanned, bilingual, and annotated audition sides, combining local PDF layout extraction, OCR fallbacks, structured screenplay parsing, and reproducible latency benchmarks
-- Added an AI director pass and expressive ElevenLabs v3 scene-partner audio with contextual delivery tags, playback controls, cached takes, persisted casting, and service-specific rate limits
-- Led a cinematic product redesign and conversion-flow overhaul, including responsive art direction, mobile Safari fixes, accessible rehearsal drawers, and authenticated-user experiences
+- Built the guided rehearsal flow with role selection, voice casting, live speech tracking, and teleprompter playback
+- Developed layered parsing for typed, scanned, bilingual, and annotated PDFs
+- Added AI-directed ElevenLabs audio with contextual delivery, caching, and persisted casting
+- Led the cinematic redesign and improved responsive, accessible, and authenticated experiences
 
 [Source](https://github.com/cranberrymuffin/auditionwithme) · [Live Demo](https://auditionwithme.vercel.app)
 
