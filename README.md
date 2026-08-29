@@ -1,40 +1,52 @@
 # Poorna Natarajan
 
-I work on LLM applications, retrieval, and evaluation.
+I work on the engineering around language models: retrieval, evaluation,
+agents, structured extraction, and the deterministic systems that make
+probabilistic models reliable in production.
 
-## Projects
+Currently a Senior Machine Learning Engineer at Latham & Watkins.
+
+Previously at Palantir, SMX, and Deloitte.
+
+## Selected Projects
 
 ### [CareNav](https://github.com/poornanat1/carenav)
 
-A health-benefits navigator that answers questions from source material and escalates when it cannot answer safely.
+A source-grounded healthcare navigator designed around a simple constraint:
+when the evidence is insufficient, the system should escalate rather than guess.
 
-- Hybrid search with Postgres full-text search and `pgvector`
-- Typed Python pipeline for safety checks, intent detection, tool use, response generation, and verification
-- PII tokenization and cost-based model routing
-- CI evals for retrieval quality and safety regressions
+- Hybrid retrieval with Postgres FTS + pgvector and citation-grounded responses
+- Typed pipeline separating retrieval, intent, tool execution, generation, and verification
+- PII tokenization before model calls and cost-aware model routing
+- Evaluation suite gating retrieval quality, grounding, and safety regressions in CI
 
-[Source](https://github.com/poornanat1/carenav) · [Demo](https://carenav-frontend-production.up.railway.app/)
-
-### [Audition With Me](https://github.com/cranberrymuffin/auditionwithme)
-
-A browser-based rehearsal tool that turns scripts and audition sides into interactive scenes with AI-powered scene partners. I was a major contributor, working across the core product experience:
-
-- Built the guided rehearsal flow with role selection, voice casting, real-time line tracking, and teleprompter-style playback
-- Developed layered PDF parsing for typed, scanned, bilingual, and marked-up audition sides
-- Added expressive scene-partner audio with contextual delivery direction, playback controls, and caching
-- Led major landing-page, responsive-design, and authenticated-user experience improvements
-
-[Source](https://github.com/cranberrymuffin/auditionwithme) · [Demo](https://auditionwithme.vercel.app)
+[Source](https://github.com/poornanat1/carenav) · [Live Demo](https://carenav-frontend-production.up.railway.app/)
 
 ### [DSpyNet](https://github.com/al322se/DSpyNet)
 
-A C#/.NET port of Stanford DSPy. My contributions include:
+Open-source contributions to a C#/.NET port of Stanford DSPy.
 
-- The GEPA optimizer ([PR #1](https://github.com/al322se/DSpyNet/pull/1))
-- Fixes that bring the implementation closer to upstream DSPy ([PR #2](https://github.com/al322se/DSpyNet/pull/2))
+- Implemented the GEPA reflective prompt optimizer
+- Added compatibility fixes aligning behavior with upstream DSPy
+- Worked across optimization, evaluation, and typed .NET abstractions
 
-[Source](https://github.com/al322se/DSpyNet) · [NuGet](https://www.nuget.org/packages/DSpyNet)
+[GEPA PR](https://github.com/al322se/DSpyNet/pull/1) · [Compatibility PR](https://github.com/al322se/DSpyNet/pull/2) · [NuGet](https://www.nuget.org/packages/DSpyNet)
+
+### [Audition With Me](https://github.com/cranberrymuffin/auditionwithme)
+
+An AI-assisted rehearsal application that turns scripts and audition sides
+into interactive scenes with voice-powered scene partners. Major contributor
+across the rehearsal experience, document intelligence, voice, and product UI.
+
+- Replaced the original script viewer with an end-to-end guided rehearsal flow spanning PDF processing, role selection, voice casting, real-time speech tracking, and teleprompter-style playback
+- Built a layered parsing system for typed, scanned, bilingual, and annotated audition sides, combining local PDF layout extraction, OCR fallbacks, structured screenplay parsing, and reproducible latency benchmarks
+- Added an AI director pass and expressive ElevenLabs v3 scene-partner audio with contextual delivery tags, playback controls, cached takes, persisted casting, and service-specific rate limits
+- Led a cinematic product redesign and conversion-flow overhaul, including responsive art direction, mobile Safari fixes, accessible rehearsal drawers, and authenticated-user experiences
+
+[Source](https://github.com/cranberrymuffin/auditionwithme) · [Live Demo](https://auditionwithme.vercel.app)
 
 ## Stack
 
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white) ![C#](https://img.shields.io/badge/C%23-512BD4?style=flat-square&logo=dotnet&logoColor=white) ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white) ![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white) ![Postgres](https://img.shields.io/badge/Postgres-4169E1?style=flat-square&logo=postgresql&logoColor=white) ![DSPy](https://img.shields.io/badge/DSPy-6C5CE7?style=flat-square)
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white) ![C#](https://img.shields.io/badge/C%23-512BD4?style=flat-square&logo=dotnet&logoColor=white) ![Go](https://img.shields.io/badge/Go-00ADD8?style=flat-square&logo=go&logoColor=white) ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
+
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white) ![pgvector](https://img.shields.io/badge/pgvector-4169E1?style=flat-square&logo=postgresql&logoColor=white) ![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5?style=flat-square&logo=kubernetes&logoColor=white) ![OpenShift](https://img.shields.io/badge/OpenShift-EE0000?style=flat-square&logo=redhatopenshift&logoColor=white) ![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white) ![Kafka](https://img.shields.io/badge/Kafka-231F20?style=flat-square&logo=apachekafka&logoColor=white) ![Airflow](https://img.shields.io/badge/Airflow-017CEE?style=flat-square&logo=apacheairflow&logoColor=white)
