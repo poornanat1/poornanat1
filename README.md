@@ -49,7 +49,7 @@ A rehearsal app for actors that turns scripts into interactive scenes with AI vo
 - Added AI-directed ElevenLabs audio with contextual delivery, caching, and persisted casting
 - Reworked the visual design and tightened up responsive layouts, accessibility, and auth
 
-[Source](https://github.com/cranberrymuffin/auditionwithme) · [Live Demo](https://auditionwithme.vercel.app)
+[Source](https://github.com/cranberrymuffin/auditionwithme) · [Live Demo](https://auditionwithme.com)
 
 ## Stack
 
